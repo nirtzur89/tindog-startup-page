@@ -1,9 +1,31 @@
+/* navbar */
+
+.navbar {
+  padding:0 0 4.5rem 0
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* heading section */
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
 #title {
   background-color: #ff4c68;
+  color: white;
 }
 
 .container-fluid {
@@ -12,8 +34,22 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  color: white;
+}
+
+.fab {
+  padding-right: 5px;
+}
+
+/* download bttn */
+ .dnbtn {
+   margin : 3% 5% 3% 0;
+ }
+
+ /* head img */
+.head-img {
+  width: 60%;
+  transform: rotate(30deg);
 }
