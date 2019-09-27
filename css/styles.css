@@ -17,9 +17,6 @@
 }
 
 /* heading section */
-body {
-  /* font-family: 'Ubuntu', sans-serif; */
-}
 
 .title {
   background-color: #ff4c68;
@@ -27,7 +24,7 @@ body {
 }
 
 .container-fluid {
-  padding: 0.5% 5%;
+  padding: 0.5% 5% 10%;
 }
 
 h1 {
@@ -48,8 +45,21 @@ h1 {
 
 /* head img */
 .head-img {
-  width: 60%;
+  width: 50%;
   transform: rotate(30deg);
+  position: absolute;
+  right: 30%
+}
+
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+  .head-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 10%;
+  }
 }
 
 /* features */
@@ -61,6 +71,7 @@ h1 {
 .features {
   background-color: white;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-icon {
@@ -121,5 +132,5 @@ em {
   font-family: 'Montserrat' sans-serif;
   text-align: center;
   padding:100px;
-  
+
 }
