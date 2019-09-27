@@ -79,7 +79,6 @@ h1 {
 
 /* testimonials */
 .testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ff4c68;
   color: white;
@@ -100,6 +99,10 @@ em {
   color: #8f8f8f
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
 /* press */
 .press {
   background-color: #ff4c68;
@@ -110,4 +113,13 @@ em {
 .press-img {
   width: 10%;
   margin: 2%;
+}
+
+
+/* pricing */
+.pricing {
+  font-family: 'Montserrat' sans-serif;
+  text-align: center;
+  padding:100px;
+  
 }
