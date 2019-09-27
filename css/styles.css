@@ -53,3 +53,28 @@ h1 {
   width: 60%;
   transform: rotate(30deg);
 }
+
+/* features */
+.feature-div{
+    font-family: Montserrat;
+    text-align: center;
+    margin: 10% 0
+}
+
+.features {
+  background-color: white;
+}
+
+.feature-icon {
+  color: #ef8172;
+font-size: 3rem;
+margin: 5% 25%;
+}
+
+.feature-icon:hover{
+  color:#ff4c68;
+}
+
+.feature-par{
+  color: #8f8f8f
+}
