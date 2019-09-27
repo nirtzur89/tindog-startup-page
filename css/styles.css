@@ -134,3 +134,38 @@ em {
   padding:100px;
 
 }
+
+/* cta */
+.cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 5% 20%;
+}
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 5% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social {
+  font-size: 1.5rem;
+  color:#ef8172;
+  margin-bottom: 10px;
+  padding: 2%;
+}
+
+.social:hover {
+  font-size: 2rem;
+  color:#ff4c68;
+}
